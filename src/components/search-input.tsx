@@ -4,7 +4,7 @@ import { Input, Kbd } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { FC } from "react";
 
-const SEARCH_ENABLED = true;
+const SEARCH_ENABLED = false;
 
 export const SearchInput: FC = () => {
   return (
