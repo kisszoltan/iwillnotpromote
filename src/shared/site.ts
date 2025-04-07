@@ -3,7 +3,7 @@ export type SiteConfig = typeof siteConfig;
 export const siteConfig = {
   name: "I will not promote",
   shortName: "iwnp",
-  description: "The startup newsletter born from Reddit’s most ironic rule.",
+  description: "The startup newsletter born from Reddit's most ironic rule.",
   company: "Kiss-Hanzsa Ltd.",
   keywords: ["startup", "i will not promote"],
   navItems: [

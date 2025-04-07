@@ -1,9 +1,9 @@
 "use client";
 
-import { Button, Input, Card, CardBody } from "@heroui/react";
-import { Icon } from "@iconify/react";
+import { Card, CardBody } from "@heroui/react";
 
 import { Logo } from "@/components/logo";
+import SubscribeForm from "@/components/subscribe-form";
 
 export default function HomePage() {
   return (
@@ -23,24 +23,8 @@ export default function HomePage() {
         </p>
 
         <Card className="w-full shadow-lg">
-          <CardBody className="flex flex-col md:flex-row items-center gap-4 p-6">
-            <div className="w-full flex items-center gap-3">
-              <Icon className="text-primary-500 h-6 w-6" icon="mdi:envelop" />
-              <Input
-                className="w-full"
-                placeholder="your@email.com"
-                type="email"
-                variant="underlined"
-              />
-            </div>
-            <Button
-              className="w-auto flex flex-col gap-0"
-              color="primary"
-              size="lg"
-            >
-              Subscribe{" "}
-              <span className="text-xs opacity-50">(free forever)</span>
-            </Button>
+          <CardBody>
+            <SubscribeForm />
           </CardBody>
         </Card>
 
